@@ -65,3 +65,13 @@ docker rm <container_id>
 ```sh
 docker exec -it <container_Name> /bin/bash
 ```
+
+13. stop all runnign containers 
+```sh
+docker stop $(docker ps -a -q)
+```
+
+14. Delete all stoped constianers
+```sh
+docker rm $(docker ps -a -q)
+```
