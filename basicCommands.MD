@@ -1,4 +1,9 @@
 
+
+Remove untagged images
+
+docker image prune --filter="dangling=true"
+
 1. how to search a docker image in hub.docker.com
 ```sh
 docker search httpd
