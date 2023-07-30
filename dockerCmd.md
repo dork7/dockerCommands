@@ -357,6 +357,7 @@ $ docker image tag bradtraversy/nginx bradtraversy/nginx:testing
 
 ```
 $ docker image build -t [REPONAME] .
+$ docker build . --file Dockerfile --tag <tag-name>
 ```
 
 #### TIP: CACHE & ORDER
